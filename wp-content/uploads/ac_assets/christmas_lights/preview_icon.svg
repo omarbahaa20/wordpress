@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64"><g stroke-width="1" transform="translate(0.5, 0.5)"><line data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="1" stroke-miterlimit="10" x1="49" y1="49.2553711" x2="49" y2="31" stroke-linejoin="miter" stroke-linecap="butt"></line>
+<path data-color="color-2" fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" d="M11,42
+	c0-2.2091408,1.7908611-4,4-4s4,1.7908592,4,4" stroke-linejoin="miter"></path>
+<path data-color="color-2" fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" d="M25,42
+	c0-2.2091408,1.7908611-4,4-4s4,1.7908592,4,4" stroke-linejoin="miter"></path>
+<path data-color="color-2" fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" d="M22,53
+	c0-2.7614136-2.2385864-5-5-5c-0.0571899,0-0.1102905,0.0149536-0.1670532,0.0168457
+	c-0.0302734-0.0006714-0.053894-0.0099487-0.0846558-0.0099487C10.625,48.006897,9.041687,56,5,56c-1.1045532,0-2,0.8953857-2,2
+	c0,1.1045532,0.8954468,2,2,2c4.1699829,0,11.1459351-0.6219482,14.5999756-2.7478027C21.125,56.2708321,22,54.6282349,22,53z" stroke-linejoin="miter"></path>
+<path data-color="color-2" fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" d="M22,53
+	c0-2.7614136,2.2385864-5,5-5c0.0571899,0,0.1102905,0.0149536,0.1670532,0.0168457
+	c0.0302734-0.0006714,0.053894-0.0099487,0.0846558-0.0099487C33.375,48.006897,34.958313,56,39,56c1.1045532,0,2,0.8953857,2,2
+	c0,1.1045532-0.8954468,2-2,2c-4.1699829,0-11.1459351-0.6219482-14.5999756-2.7478027C22.875,56.2708321,22,54.6282349,22,53z" stroke-linejoin="miter"></path>
+<path data-cap="butt" data-color="color-2" fill="none" stroke="#444444" stroke-width="1" stroke-miterlimit="10" d="M57,49.2553711V25.9999752
+	C57,12.7451553,46.2548447,2,33.0000229,2h-0.0000458C21.1081352,2,11.2363634,10.6489458,9.3318968,21.9996014" stroke-linejoin="miter" stroke-linecap="butt"></path>
+<rect x="4" y="22" fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" width="45" height="9" stroke-linejoin="miter"></rect>
+<circle fill="none" stroke="#444444" stroke-width="1" stroke-linecap="square" stroke-miterlimit="10" cx="53" cy="55" r="7" stroke-linejoin="miter"></circle></g></svg>

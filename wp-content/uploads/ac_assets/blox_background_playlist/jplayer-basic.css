@@ -1,0 +1,378 @@
+.jp-audio *:focus,
+.jp-audio-stream *:focus,
+.jp-video *:focus {
+    outline: none;
+}
+.jp-audio button::-moz-focus-inner,
+.jp-audio-stream button::-moz-focus-inner,
+.jp-video button::-moz-focus-inner {
+    border: 0;
+}
+.jp-audio {
+    font-size: 16px;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    border-top: 1px solid #554461;
+    border-left: 1px solid #554461;
+    border-right: 1px solid #180a1f;
+    border-bottom: 1px solid #180a1f;
+    background-color: #3a2a45;
+}
+.jp-audio *,
+.jp-audio {
+    box-sizing: border-box;
+}
+.jp-audio {
+    width: 100%;
+    padding: 20px;
+}
+.jp-interface {
+    position: relative;
+    width: 100%;
+    background-color: #3a2a45;
+}
+/* @group CONTROLS */
+
+.jp-audio .jp-controls-holder {
+    height: 80px;
+}
+.jp-controls {
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 34px;
+}
+.jp-audio .jp-controls {
+    margin: 0 auto;
+}
+.jp-controls button {
+    display: block;
+    float: left;
+    overflow: hidden;
+    height: 34px;
+    margin: 0 0px 2px 0px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #55475E;
+    font-size: 15px;
+    width: 25% !important;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+}
+.jp-type-playlist .jp-controls button.jp-next {
+    border-right: 1px solid #000;
+}
+.jp-type-playlist .jp-play {} .jp-type-playlist .jp-play:before {
+    content: "\f04b";
+}
+.jp-type-playlist .jp-play:focus:before {
+    content: "\f04b";
+}
+.jp-state-playing div.jp-type-playlist .jp-play:before {
+    content: "\f04c";
+}
+.jp-state-playing div.jp-type-playlist .jp-play:focus:before {
+    content: "\f04c";
+}
+.jp-type-playlist .jp-stop:before {
+    content: "\f04d";
+}
+.jp-type-playlist .jp-stop:focus {
+    content: "\f04d";
+}
+.jp-type-playlist .jp-previous:before {
+    content: "\f04a";
+}
+.jp-type-playlist .jp-previous:focus:before {
+    content: "\f04a";
+}
+.jp-type-playlist .jp-next:before {
+    content: "\f04e";
+}
+.jp-type-playlist .jp-next:focus:before {
+    content: "\f04e";
+}
+/* @group TOGGLES */
+
+.jp-toggles {
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.jp-audio .jp-toggles {
+    width: 55px;
+}
+.jp-audio .jp-type-single .jp-toggles {
+    width: 25px;
+}
+.jp-toggles button {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 18px;
+    line-height: 100%;
+    /* need this for IE6 */
+    
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-size: 15px;
+    color: #8F7E9E;
+}
+.jp-repeat {
+    margin-left: 0;
+}
+.jp-repeat:focus {
+    color: #e892e9;
+}
+.jp-state-looped .jp-repeat {
+    color: #e892e9;
+}
+.jp-state-looped .jp-repeat:focus {
+    color: #e892e9;
+}
+.jp-shuffle {
+    margin-left: 15px;
+}
+.jp-shuffle:focus {
+    color: #e892e9;
+}
+.jp-state-shuffled .jp-shuffle {
+    color: #e892e9;
+}
+.jp-state-shuffled .jp-shuffle:focus {
+    color: #e892e9;
+}
+.jp-audio .jp-shuffle {
+    margin-left: 5px;
+}
+/* @group progress bar */
+/* The seeking class is added/removed inside jPlayer */
+
+div.jp-seeking-bg {} .jp-progress {
+    width: 100%;
+    height: 13px;
+    padding: 0;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+.jp-seek-bar {
+    background: #170920;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jp-play-bar {
+    background: #6F0370;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+/* @group volume controls */
+
+.jp-state-no-volume .jp-volume-controls {
+    display: none;
+}
+.jp-audio .jp-volume-controls {
+    height: 30px;
+}
+.jp-volume-controls button {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #8F7E9E;
+    font-size: 15px;
+}
+.jp-audio .jp-volume-controls .jp-mute {
+    top: -8px;
+    left: 0;
+}
+.jp-audio .jp-volume-controls .jp-volume-max {
+    top: -8px;
+    right: 0;
+}
+.jp-volume-controls .jp-mute {
+    background: none;
+    text-align: left;
+}
+.jp-volume-controls .jp-mute:focus {
+    color: #e892e9;
+}
+.jp-state-muted .jp-volume-controls .jp-mute {
+    color: #e892e9;
+}
+.jp-state-muted .jp-volume-controls .jp-mute:focus {
+    color: #e892e9;
+}
+.jp-volume-controls .jp-volume-max {
+    background: none;
+    text-align: left;
+}
+.jp-volume-controls .jp-volume-max:focus {
+    color: #e892e9;
+}
+.jp-volume-bar {
+    background: #665B6C;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+.jp-audio .jp-interface .jp-volume-bar {
+    top: 10px;
+    left: 0;
+}
+.jp-volume-bar-value {
+    background: #9C509B;
+    height: 4px;
+}
+/* @group current time and duration */
+
+.jp-current-time,
+.jp-duration {
+    width: 70px;
+    font-size: .5em;
+    color: #8c7a99;
+}
+.jp-current-time {
+    float: left;
+    cursor: default;
+}
+.jp-duration {
+    float: right;
+    text-align: right;
+    cursor: pointer;
+}
+/* @group playlist */
+
+.jp-details {
+    font-size: .7em;
+    margin: 0;
+    padding: 0;
+}
+.jp-details .jp-title {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    cursor: default;
+}
+.jp-playlist ul {
+    list-style-type: none;
+    font-size: .7em;
+    margin: 0;
+    padding: 0;
+}
+.jp-playlist li {
+    position: relative;
+    padding: 2px 0;
+    border-top: 1px solid #554461;
+    border-bottom: 1px solid #180a1f;
+    overflow: hidden;
+}
+/* Note that the first-child (IE6) and last-child (IE6/7/8) selectors do not work on IE */
+
+div.jp-type-playlist div.jp-playlist li:first-child {
+    border-top: none;
+    padding-top: 3px;
+}
+div.jp-type-playlist div.jp-playlist li:last-child {
+    border-bottom: none;
+    padding-bottom: 3px;
+}
+div.jp-type-playlist div.jp-playlist a {
+    color: #fff;
+    text-decoration: none;
+}
+div.jp-type-playlist div.jp-playlist a:hover {
+    color: #e892e9;
+}
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current {
+    background-color: #26102e;
+    margin: 0 -20px;
+    padding: 2px 20px;
+    border-top: 1px solid #26102e;
+    border-bottom: 1px solid #26102e;
+}
+div.jp-type-playlist div.jp-playlist li.jp-playlist-current a {
+    color: #e892e9;
+}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove {
+    float: right;
+    display: inline;
+    text-align: right;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #8C7A99;
+}
+div.jp-type-playlist div.jp-playlist a.jp-playlist-item-remove:hover {
+    color: #E892E9;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media {
+    float: right;
+    display: inline;
+    text-align: right;
+    color: #8C7A99;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media a {
+    color: #8C7A99;
+}
+div.jp-type-playlist div.jp-playlist span.jp-free-media a:hover {
+    color: #E892E9;
+}
+span.jp-artist {
+    font-size: .8em;
+    color: #8C7A99;
+}
+/* @end */
+
+.jp-jplayer audio,
+.jp-jplayer {
+    width: 0px;
+    height: 0px;
+}
+.jp-jplayer {
+    background-color: #000000;
+}
+/* @group NO SOLUTION error feedback */
+
+.jp-no-solution {
+    padding: 5px;
+    font-size: .8em;
+    background-color: #3a2a45;
+    border-top: 2px solid #554461;
+    border-left: 2px solid #554461;
+    border-right: 2px solid #180a1f;
+    border-bottom: 2px solid #180a1f;
+    color: #FFF;
+    display: none;
+}
+.jp-no-solution a {
+    color: #FFF;
+}
+.jp-no-solution span {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+/* @end */

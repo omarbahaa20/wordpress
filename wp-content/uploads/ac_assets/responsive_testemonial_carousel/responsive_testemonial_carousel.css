@@ -1,0 +1,77 @@
+.uc_quote_slider .slick-dots {
+    display: table;
+    margin: 20px auto 0;
+}
+.uc_quote_slider .slick-dots  > ul,.uc_quote_slider  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.uc_quote_slider .slick-dots li {
+    float: left;
+    padding-top:10px;
+    margin: 0 3px;
+}
+
+.uc_quote_slider.slick-initialized .slick-slide {
+    display: block;
+}
+.uc_quote_slider .slick-slide {
+    float: left;
+    min-height: 1px;
+}
+.uc_quote_slider .uc_quote_item {
+    padding: 0 15px;
+}
+.uc_quote_slider .uc_quote_info {
+    padding: 35px 30px;
+    border: 1px solid #e5e5e5;
+}
+.uc_quote_slider .uc_quote_info > p {
+    font-size: 14px;
+    color: #888;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    padding-bottom:10px;
+}
+.uc_quote_slider .uc_quote_info .uc_author {
+    display: block;
+    overflow: hidden;
+}
+.uc_quote_slider .uc_quote_info .uc_author_avatar {
+    width: 54px;
+    height: 54px;
+    border-radius: 99px;
+    float: left;
+}
+.uc_quote_slider .uc_quote_info .uc_author_info {
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    margin-left: 16px;
+    font-style: normal;
+    margin-top: 6px;
+}
+.uc_quote_slider .uc_quote_info .uc_author_info .uc_name {
+    color: #444;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+
+}
+.uc_quote_slider .uc_quote_info .uc_author_info .uc_company {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media (max-width:960px) {
+	.uc_quote_slider .uc_quote_info .uc_author_info {
+	 width: 130px;
+	}
+
+	.uc_quote_slider .uc_quote_info .uc_author_info {
+		margin-left: 12px;
+	}
+}

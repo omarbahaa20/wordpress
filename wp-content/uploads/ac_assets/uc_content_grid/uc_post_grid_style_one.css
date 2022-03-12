@@ -1,0 +1,89 @@
+.uc_post_grid_style_one * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_wrap {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_item {
+	color: #42527b;
+	font-size: 16px;
+	overflow: hidden;
+  	position: relative;
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_image {
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	display: block;
+  	
+}
+.uc_post_grid_style_one .uc_post_image {
+	width: inherit;
+	height: inherit;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	display: block;
+	transition: all 0.25s ease-in-out;
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_item:hover .uc_post_image {
+	transform: scale(1.1);
+}
+
+.uc_post_grid_style_one .uc_post_grid_style_one_title {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+	color: #42527b;
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_title a {
+	color: #42527b;
+	text-decoration: none;
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_meta {
+	font-size: 13px;
+    padding: 0px 0px 10px 0px;
+	color: #ea36a4;
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_excerpt {
+	margin: 0px 0px 11px 0px;
+	padding-bottom: 15px;
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_excerpt p {
+	margin: 0;
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_button {
+
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_button a.uc_btn{
+	display: inline-block;
+	text-align: center;
+	background-color: #00b4ff;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px 8px 8px 8px;
+	font-size: 16px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 1em;
+	color: #fff;
+	transition: all 0.25s ease-in-out;
+}
+.uc_post_grid_style_one .uc_post_grid_style_one_button a.uc_btn:hover {
+	background-color: #42527b;
+}
+@media (max-width:1023px){
+	.uc_post_grid_style_one .uc_post_grid_style_one_wrap {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (max-width:639px){
+	.uc_post_grid_style_one .uc_post_grid_style_one_wrap {
+		grid-template-columns: repeat(1, 1fr);
+	}
+}

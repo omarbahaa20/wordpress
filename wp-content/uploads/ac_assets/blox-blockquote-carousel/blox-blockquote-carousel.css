@@ -1,0 +1,75 @@
+.blox-blockquote-carousel * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+.blox-blockquote-carousel{
+	font-family: inherit;
+	color:#000000;
+	position:relative;
+	margin:24px 0 0 0;
+	
+	}
+
+.blox-blockquote-carousel .blox-content	{
+	padding:10px 45px 50px;
+	font-size:20px;
+	line-height:32px;
+	}
+.blox-blockquote-carousel .blox-icon{
+	padding:0 43px;
+	position:relative;
+	}
+.blox-blockquote-carousel i{
+	font-size:20px;
+	display:inline-block;
+	color:#ffffff;
+	text-align:center;
+	line-height:48px;
+	width:48px;
+	height:48px;
+	border-radius:50%;
+	position:relative;
+	top:-24px;
+	z-index:9;
+	}
+	
+.blox-blockquote-carousel .blox-content .blox-author{
+	font-size:15px;
+	line-height:25px;
+	margin:14px 0 0 0;
+	}
+
+.blox-blockquote-carousel .slick-dots li{
+   border: 1px solid #00C28E;
+   background-color: #ffffff;
+   border-radius:50%;
+	display: inline-block;
+    height: 8px;
+    width: 8px;
+    outline: none;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    padding: 0;
+    cursor: pointer;
+	text-indent:-9999px;
+	text-align:center;
+	margin:0 10px;
+}
+
+.blox-blockquote-carousel .slick-dots{
+	position: absolute;
+	bottom:-51px;
+	display: block;
+	width: 100%;
+	padding: 10;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+.blox-blockquote-carousel .slick-dots li.slick-active{background-color: #00C28E;}
+

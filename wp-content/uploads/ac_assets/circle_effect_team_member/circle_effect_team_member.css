@@ -1,0 +1,111 @@
+.uc_circle_effect_team_member * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uc_circle_effect_team_member{
+	padding:50px 0;
+}
+
+.uc_circle_effect_team_member .uc_circle_effect_team_container{
+	max-width:220px;
+	margin:0 auto;
+	position:relative;
+	overflow:visible;
+}
+
+.uc_circle_effect_team_member .uc_team_image{
+	margin:0 0 32px;
+}
+
+.uc_circle_effect_team_member .uc_team_image img{
+	display:block;
+    width:100%;
+}
+
+.uc_circle_effect_team_member .uc_circle_animation {
+  	
+  	border-radius: 100%;
+  	height: 60px;
+  	position: absolute;
+  	right: 0px;
+  	top: 0;
+  	transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s, width 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s, height 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  	width: 60px;
+}
+
+.uc_circle_effect_team_member .uc_team_position {
+  	position: absolute;
+  	right: 0;
+  	top: 0;
+  	transition: opacity 0.25s cubic-bezier(0.39, 0.58, 0.57, 1) 0.1s;
+}
+
+.uc_circle_effect_team_member .uc_icon_shortcode {
+  	background-color: rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 100%;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 28px;
+    height: 60px;
+    line-height: 2.25;
+    text-align: center;
+    transition: background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s;
+    width: 60px;
+}
+
+.uc_circle_effect_team_member h6 {
+  	color: #ffffff;
+  	left: 0;
+  	opacity: 0;
+  	position: absolute;
+  	text-align: center;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	transition: opacity 0.1s ease-out 0s;
+  	width: 100%;
+	font-size: 20px;
+    line-height: 30px;
+}
+
+.uc_circle_effect_team_member .uc_circle_effect_team_container:hover .uc_circle_animation{
+  	height: 100%;
+  	right: 0px;
+  	top: 0;
+  	transform: scale(1.01);
+  	width: 100%;
+}
+
+.uc_circle_effect_team_member .uc_circle_effect_team_container:hover h6 {
+  	opacity: 1;
+  	transition: opacity 0.15s ease-out 0.1s;
+}
+
+.uc_circle_effect_team_member .uc_circle_effect_team_container:hover .uc_icon_shortcode {
+  	opacity: 0;
+  	transition: opacity 0.2s cubic-bezier(0.39, 0.58, 0.57, 1) 0s;
+}
+
+.uc_circle_effect_team_member .uc_team_info{
+	text-align:center;
+	font-weight:14px;
+	font-weight:500;
+	color:#797979;
+}
+
+.uc_circle_effect_team_member .uc_team_info h5{
+	font-weight:600;
+	font-size:19px;
+	line-height:1.4em;
+	color:#222222;
+	margin:0 0 15px;
+}
+
+.uc_circle_effect_team_member .uc_team_info p{
+	margin:0;
+	line-height:23px;
+}

@@ -1,0 +1,28 @@
+[2022-02-11 05:36:44] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_posts does not use the InnoDB engine.
+[2022-02-11 05:36:44] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_terms does not use the InnoDB engine.
+[2022-02-11 05:36:44] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_users does not use the InnoDB engine.
+[2022-02-11 05:36:44] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_posts does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_posts does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_terms does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_users does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_posts does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_3_0_0] has run successfully
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_4_0_2] has run successfully
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_4_4_0] has run successfully
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_4_5_0] has run successfully
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_posts does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_terms does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_users does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_posts does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_5_0_0] has run successfully
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_5_2_0] has run successfully
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_5_3_0] has run successfully
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_posts does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_terms does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_users does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Database\SqlSchema:323] Cannot check for a foreign constraint because wpna_posts does not use the InnoDB engine.
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_5_9_0] has run successfully
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_5_10_3] has run successfully
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_5_11_0] has run successfully
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_5_14_0] has run successfully
+[2022-02-11 05:36:49] DEBUG [Modules\Migrate:163] [Migrate_5_19_0] has run successfully

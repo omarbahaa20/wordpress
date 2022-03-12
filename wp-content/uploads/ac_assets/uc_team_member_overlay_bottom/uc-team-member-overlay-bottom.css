@@ -1,0 +1,100 @@
+
+.uc_team_member_overlay_bottom *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+.uc_team_member_overlay_bottom .uc_tmob_container{
+	position:relative;
+	overflow:hidden;
+	color: #333333;
+}	
+	
+
+
+.uc_team_member_overlay_bottom .uc_tmob_container .uc_tmob_content{
+	background-color:#e8f8f2;
+	width:100%;
+	position:absolute;
+	bottom:-100%;
+	left:0;
+	text-align:center;
+	padding:15px;
+	z-index:100;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.uc_team_member_overlay_bottom .uc_tmob_container:hover .uc_tmob_content{
+	bottom:0;
+}
+
+.uc_team_member_overlay_bottom .uc_tmob_container .uc_tmob_content  .uc_tmob_title{
+	font-size:20px;
+	font-weight:700;
+	margin:0 0 10px;
+} 
+
+.uc_team_member_overlay_bottom .uc_tmob_container .uc_tmob_content  .uc_tmob_subtitle{
+	font-size:14px;
+}
+
+.uc_team_member_overlay_bottom .uc_tmob_container .uc_tmob_social{
+	position:absolute;
+	left:-100%;
+	top:15px;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	z-index:100;	
+}
+
+.uc_team_member_overlay_bottom .uc_tmob_container:hover .uc_tmob_social{
+	left:15px;	
+}
+
+.uc_team_member_overlay_bottom .uc_tmob_container .uc_tmob_social a{
+	color: #4a2ace;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: #ffffff;
+    border-radius: 90px;
+    text-align: center;
+	font-size:16px;
+    display:block;
+	margin:0 0 5px;	
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.uc_team_member_overlay_bottom .uc_tmob_container .uc_tmob_social a:hover{
+	background-color:#4a2ace;
+	color:#fff;
+}
+
+.uc_team_member_overlay_bottom .uc_tmob_container .uc_tmob_social a:last-child{
+	margin-bottom:0;
+}
+
+.uc_team_member_overlay_bottom .uc_tmob_container .uc_tmob_overlay{
+	position:absolute;		
+	background:#4a2ace;	
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	z-index:99;
+	opacity:0;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
+.uc_team_member_overlay_bottom .uc_tmob_container:hover .uc_tmob_overlay{
+	opacity:0.5;
+}
+	
+						
+	
+
+

@@ -1,0 +1,56 @@
+.uc_animated_feature_box {
+	text-align: center;
+}
+.uc_animated_feature_box:hover {
+	transition: all 0.5s;
+}
+.uc_animated_feature_box:hover .uc_icon {
+	transform: translateY(-40px);
+	transition: all 0.5s;
+}
+.uc_animated_feature_box:hover .uc_title {
+	transform: translateY(-80px);
+	transition: all 0.5s;
+}
+.uc_animated_feature_box:hover .uc_title::before {
+	transform: translateY(80px);
+	transition: all 0.55s;
+}
+.uc_animated_feature_box:hover .uc_content {
+	opacity: 1;
+	transform: translateY(-40px);
+	transition: transform 0.5s, opacity 0.2s;
+}
+.uc_animated_feature_box .uc_icon {
+	margin-top: 100px;
+	font-size: 65px;
+	color: #fff;
+	transition: all 0.2s;
+}
+.uc_animated_feature_box .uc_title::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	margin-top: -12px;
+	margin-left: -70px;
+	height: 4px;
+	width: 140px;
+	background-color: #fff;
+	transition: all 0.55s;
+}
+.uc_animated_feature_box .uc_title {
+	position: relative;
+	margin-top: 41px;
+	font: bold 28px "Titillium Web";
+	color: #fff;
+	transition: all 0.2s;
+}
+.uc_animated_feature_box .uc_content {
+	display: block;
+	padding: 0 43px 28px;
+	font: 15px "Titillium Web";
+	color: #fff;
+	opacity: 0;
+	transform: translateY(-50px);
+	transition: all 0.2s;
+}

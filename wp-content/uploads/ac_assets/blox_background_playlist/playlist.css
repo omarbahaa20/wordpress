@@ -1,0 +1,202 @@
+.jp-no-solution {
+    padding: 5px;
+    background-color: #333;
+    color: #FFF;
+    display: none;
+}
+.jp-no-solution a {
+    color: #FFF;
+}
+.jp-no-solution span {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.blox-background-playlist * { 
+	box-sizing: border-box; 
+}
+
+.blox-background-playlist {
+  overflow:hidden;
+}
+
+.blox-background-playlist .blox-album-image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+    text-align:center;
+}
+
+.jp-audio *:focus,
+.jp-audio-stream *:focus,
+.jp-video *:focus {
+    outline: none;
+}
+.jp-audio button::-moz-focus-inner,
+.jp-audio-stream button::-moz-focus-inner,
+.jp-video button::-moz-focus-inner {
+    border: 0;
+}
+
+.jp-jplayer audio,
+.jp-jplayer {
+    width: 0px;
+    height: 0px;
+}
+
+
+.blox-background-playlist .jp-audio {
+    width: 100%;
+    padding: 0px;
+}
+.blox-background-playlist .jp-interface {
+    position: relative;
+    width: 100%;
+}
+
+.blox-background-playlist .jp-audio .jp-controls-holder {
+	padding: 0px;
+    width: 100%;
+	position: relative;
+	z-index: 2;
+}
+.blox-background-playlist .jp-controls {
+    padding: 0;
+    width: 100%;
+}
+.blox-background-playlist .jp-audio .jp-controls {text-align: center;}
+.blox-background-playlist .jp-controls button {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+    cursor: pointer;
+    font-family:"Font Awesome 5 Free";
+  	font-weight:900;
+    font-style: normal;
+    text-decoration: inherit;
+    font-size: 16px;
+	line-height: 16px;
+}
+
+.jp-type-playlist .jp-play:before {content: "\f04b";}
+.blox-background-playlist .jp-type-playlist .jp-play:focus:before {content: "\f04b";}
+.blox-background-playlist .jp-state-playing div.jp-type-playlist .jp-play:before {content: "\f04c";}
+.blox-background-playlist .jp-state-playing div.jp-type-playlist .jp-play:focus:before {content: "\f04c";}
+.blox-background-playlist .jp-type-playlist .jp-stop:before {content: "\f04d";}
+.blox-background-playlist .jp-type-playlist .jp-stop:focus {content: "\f04d";}
+.blox-background-playlist .jp-type-playlist .jp-previous:before {content: "\f04a";}
+.blox-background-playlist .jp-type-playlist .jp-previous:focus:before {content: "\f04a";}
+.blox-background-playlist .jp-type-playlist .jp-next:before {content: "\f04e";}
+.blox-background-playlist .jp-type-playlist .jp-next:focus:before {content: "\f04e";}
+
+
+
+.blox-background-playlist div.jp-seeking-bg {} 
+
+.blox-background-playlist .jp-playlist {clear: both;}
+
+.blox-background-playlist .jp-progress {
+    width: 100%;
+    height: 8px;
+    padding: 0;
+    overflow: hidden;
+	z-index: 2;
+}
+.blox-background-playlist .jp-seek-bar {
+    background-color: transparent;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.blox-background-playlist .jp-play-bar {
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.blox-background-playlist .jp-audio .jp-volume-controls {
+	position: relative;
+	width: 100%;
+}
+.blox-background-playlist .jp-volume-controls button {
+    display: block;
+    margin: 0 10px;
+    padding: 0;
+    width: 17px;
+    height: 17px;
+    border: none;
+    cursor: pointer;
+    font-family:"Font Awesome 5 Free";
+  	font-weight:900;
+    font-style: normal;
+    text-decoration: inherit;
+    font-size: 16px;
+    flex-grow:0;
+    flex-shrink:0;
+    line-height: 16px;
+   
+}
+
+.blox-background-playlist .jp-volume-controls
+{
+  display:flex;
+  align-items:center;
+  padding:10px 0px;
+}
+
+.blox-background-playlist .jp-mute {background-color:transparent;}
+.blox-background-playlist .jp-volume-max {background-color:transparent;}
+.blox-background-playlist .jp-volume-bar {
+    height: 5px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    margin: auto;
+    flex-grow:1;
+}
+.blox-background-playlist .jp-volume-bar-value {
+  height: 5px;
+}
+
+.blox-background-playlist .jp-current-time,
+.blox-background-playlist .jp-duration {
+	padding: 5px 10px;
+}
+.blox-background-playlist .jp-current-time {
+    cursor: default;
+}
+.blox-background-playlist .jp-duration {
+    cursor: pointer;
+}
+
+.blox-background-playlist .ue-player-time-holder
+{
+  width:100%;
+}
+
+.blox-background-playlist .ue-player-time
+{
+  display:flex;
+  justify-content:space-between;
+  width:100%; 
+}
+
+.blox-background-playlist .jp-playlist ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.blox-background-playlist .jp-playlist li {
+    position: relative;
+    overflow: hidden;
+}
+
+.blox-background-playlist div.jp-type-playlist div.jp-playlist a {
+    text-decoration: none;
+    display:block;
+}

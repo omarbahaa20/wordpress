@@ -1,0 +1,117 @@
+
+.blox_instagram_quatro * { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+.blox_instagram_quatro .blox_instagram_quatro_container {
+	background-color: #fff;
+	padding: 15px;
+	overflow: hidden;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0 20px 30px 0 rgba(0,0,0,0.06);
+}
+
+.blox_instagram_quatro .blox_instagram_quatro_container img {
+	vertical-align: top;
+	height: auto;
+	width: 100%;
+	max-width: 100%;
+}
+
+.blox_instagram_quatro .blox_image_box {
+	position: relative;
+}
+.blox_instagram_quatro .blox_profile_pic {
+	max-width: 83px;
+	min-width: 82px;
+	max-height: 83px;
+	min-height: 83px;
+	margin: 0 auto;
+	border: 3px solid #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	margin-top: -41.5px;
+}
+
+.blox_instagram_quatro ul.blox_image_list {
+	list-style: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	overflow: hidden;
+}
+
+.blox_instagram_quatro ul.blox_image_list li {
+	list-style: none !important;
+	width: 50%;
+	float: left;
+	padding: 0 2px;
+	margin: 0 0 4px;
+}
+
+.blox_instagram_quatro .blox_instagram_info {
+	padding: 20px 0 10px;
+	text-align: center;
+	color: #4A4A4A;
+}
+
+.blox_instagram_quatro .blox_profile_name {
+	font-family: inherit;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.blox_instagram_quatro .blox_follow_count {
+	font-size: 13px;
+	line-height: 22px;
+	font-family: inherit;
+}
+
+.blox_instagram_quatro .blox_follow_btn {
+	font-size: 13px;
+	line-height: 22px;
+	font-family: inherit;
+	margin: 25px 0 0;
+}
+
+.blox_instagram_quatro .blox_follow_btn a {
+	color: #000000;
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 28px;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 2px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

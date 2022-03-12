@@ -1,0 +1,52 @@
+.blox_icon_button_number_box
+{
+  padding:30px;
+  position:relative;
+  transition:0.3s;
+}
+.blox_icon_button_number_box:hover
+{
+  transform:scale(1.1,1.1);
+}
+
+.blox_icon_button_number_box_number
+{
+  position:absolute;
+  right:0px;
+  top:0px;
+  padding:20px;
+  font-size:32px;
+  color:gray;
+}
+
+.blox_icon_button_number_box_icon
+{
+  color:white;
+  font-size:62px;
+  padding-top:20px;
+  padding-bottom:30px;
+}
+
+.blox_icon_button_number_box_title
+{
+  color:white;
+  padding-bottom:14px;
+  font-size:32px;
+}
+
+.blox_icon_button_number_box_paragraph
+{
+  font-size:16px;
+  line-height:1.5em;
+  color:gray;
+  padding-bottom:30px;
+}
+
+.blox_icon_button_number_box_link 
+{
+  display:inline-block;
+  color:black;
+  padding:14px 30px;
+  background-color:yellow;
+  text-decoration:none;
+}

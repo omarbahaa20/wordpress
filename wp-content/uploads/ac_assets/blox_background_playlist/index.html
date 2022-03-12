@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Background Playlist</title>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="blox-background-playlist.css" rel="stylesheet" type="text/css" >
+
+</head>
+<body style="margin: 50px;">
+
+	<div class="blox-background-playlist" id="blox-background-playlist">
+        <div id="jplayer_dynamic_id" class="jp-jplayer"></div>
+        <div id="jp_container_dynamic_id" class="jp-audio" role="application" aria-label="media player">
+			<div class="jp-type-playlist">
+				<div class="jp-gui jp-interface">
+					<div class="blox-album-image" style="background-image: url(beyonce.jpg);">
+						
+						<div class="jp-controls-holder">
+							
+							<div class="jp-controls">
+								<button class="jp-previous" role="button" tabindex="0"></button>
+								<button class="jp-play" role="button" tabindex="0"></button>
+								<button class="jp-next" role="button" tabindex="0"></button>
+							</div>
+
+							
+							<div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+							<div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+						</div>
+						
+						<div class="jp-progress">
+							<div class="jp-seek-bar">
+								<div class="jp-play-bar"></div>
+							</div>
+						</div>
+						<div class="box-overlay"></div>
+					</div>
+					
+				</div>
+				<div class="jp-playlist">
+					<ul>
+						<li>&nbsp;</li>
+					</ul>
+				</div>
+				<div class="jp-volume-controls">
+					<button class="jp-mute" role="button" tabindex="0"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
+					<button class="jp-volume-max" role="button" tabindex="0"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+					<div class="jp-volume-bar">
+						<div class="jp-volume-bar-value"></div>
+					</div>
+				</div>
+				<div class="jp-no-solution">
+					<span>Update Required</span>
+					To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+				</div>
+			</div>
+		</div>
+    </div>
+    
+    <script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="blox-player/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="blox-player/jplayer.playlist.min.js"></script>
+	<script type="text/javascript">
+	//<![CDATA[
+	$(document).ready(function(){
+
+		new jPlayerPlaylist({
+			jPlayer: "#jplayer_dynamic_id",
+			cssSelectorAncestor: "#jp_container_dynamic_id"
+		}, [
+			{
+				title:"Cro Magnon Man",
+				mp3:"http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3",
+			},
+			{
+				title:"Your Face",
+				mp3:"http://www.jplayer.org/audio/mp3/TSP-05-Your_face.mp3",
+			},
+			{
+				title:"Cyber Sonnet",
+				mp3:"http://www.jplayer.org/audio/mp3/TSP-07-Cybersonnet.mp3",
+			},
+			{
+				title:"Tempered Song",
+				mp3:"http://www.jplayer.org/audio/mp3/Miaow-01-Tempered-song.mp3",
+			},
+			{
+				title:"Hidden",
+				mp3:"http://www.jplayer.org/audio/mp3/Miaow-02-Hidden.mp3",
+			},
+			{
+				title:"Lentement",
+				mp3:"http://www.jplayer.org/audio/mp3/Miaow-03-Lentement.mp3",
+				oga:"http://www.jplayer.org/audio/ogg/Miaow-03-Lentement.ogg"
+			},
+			{
+				title:"Lismore",
+				mp3:"http://www.jplayer.org/audio/mp3/Miaow-04-Lismore.mp3",
+				oga:"http://www.jplayer.org/audio/ogg/Miaow-04-Lismore.ogg"
+			},
+			{
+				title:"The Separation",
+				mp3:"http://www.jplayer.org/audio/mp3/Miaow-05-The-separation.mp3",
+			},
+			{
+				title:"Beside Me",
+				mp3:"http://www.jplayer.org/audio/mp3/Miaow-06-Beside-me.mp3",
+			},
+			{
+				title:"Bubble",
+				mp3:"http://www.jplayer.org/audio/mp3/Miaow-07-Bubble.mp3",
+			},
+			{
+				title:"Stirring of a Fool",
+				mp3:"http://www.jplayer.org/audio/mp3/Miaow-08-Stirring-of-a-fool.mp3",
+			},
+			{
+				title:"Partir",
+				mp3:"http://www.jplayer.org/audio/mp3/Miaow-09-Partir.mp3",
+			},
+			{
+				title:"Thin Ice",
+				mp3:"http://www.jplayer.org/audio/mp3/Miaow-10-Thin-ice.mp3",
+			}
+		], {
+			swfPath: "/aplayer",
+			play: function(e) {
+				jQuery('#jp_container_dynamic_id .blox-album-name').html(e.jPlayer.status.media.title);
+			},
+			ready: function(){
+				var getCurrentSong = jQuery('#jp_container_dynamic_id').find('.jp-playlist-item.jp-playlist-current').text();
+				jQuery('#jp_container_dynamic_id .blox-album-name').html(getCurrentSong);
+			},
+			supplied: "mp3",
+			wmode: "window",
+			useStateClassSkin: true,
+			autoBlur: false,
+			smoothPlayBar: true,
+			keyEnabled: true,
+			verticalVolume: false
+		});
+	});
+	//]]>
+	</script>
+	
+</body>
+</html>
