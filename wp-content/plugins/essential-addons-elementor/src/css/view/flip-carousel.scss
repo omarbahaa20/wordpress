@@ -1,0 +1,11 @@
+.eael-flip-carousel {
+    .flip-custom-nav {
+        display: block;
+    }
+}
+// RTL
+.rtl {
+    .eael-flip-carousel {
+        direction: ltr;
+    }
+}
